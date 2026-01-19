@@ -1,0 +1,3 @@
+Press WASD or < ^ > to move = Для движения нажмите WASD или < ^ >
+Play = Играть
+To interact, press E = Для взаимодействия нажмите E

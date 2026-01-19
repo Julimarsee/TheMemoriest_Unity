@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e36957cd521eb44d9df4dcc725edc61, type: 3}
+  m_Name: Localization_en
+  m_EditorClassIdentifier: Assembly-CSharp::LocalizationData
+  keys:
+  - hint_movement
+  - menu_play
+  - hint_interact
+  translations:
+  - key: hint_movement
+    value: Press WASD or < ^ > to move
+  - key: menu_play
+    value: Play
+  - key: hint_interact
+    value: To interact, press E

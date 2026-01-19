@@ -1,0 +1,41 @@
+{
+    "dialogs": {
+        "lute": {
+            "objectName": "Сломанная лютня",
+            "sprite": "sLute",
+            "messages": [
+                {
+                    "text": "Сломанная лютня. Подобрать струну?",
+                    "choices": [
+                        {
+                            "text": "Взять",
+                            "number": 1,
+                            "next": "1"
+                        },
+                        {
+                            "text": "Не брать",
+                            "number": 2,
+                            "next": "end"
+                        }
+                    ]
+                },
+                {
+                    "text": "Вы подобрали струну",
+                    "next": "end"
+                }
+            ]
+        },
+        "page": {
+            "objectName": "Вырванный листок",
+            "sprite": "Riddle_1_TK",
+            "messages": [
+                {
+                    "text": "Ветер, пламя и вода спят,\nНо лишь один порядок свят —\nПервый путь укажет твой,\nТретий гасит жар живой?",
+                    "choices": null
+                }
+            ]
+        },
+        "puzzle": null,
+        "chest": null
+    }
+}

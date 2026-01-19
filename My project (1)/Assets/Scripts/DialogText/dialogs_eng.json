@@ -1,0 +1,62 @@
+{
+    "dialogs": {
+        "lute": {
+            "object": "The broken lute",
+            "sprite": "sLute",
+            "messages": [
+                {
+                    "text": "The broken lute. Pick up a string?",
+                    "choices": [
+                        {
+                            "text": "Take",
+                            "next": "end"
+                        },
+                        {
+                            "text": "No",
+                            "next": "end"
+                        }
+                    ]
+                }
+            ]
+        },
+        "page": {
+            "object": "The sheet",
+            "sprite": "sPage",
+            "messages": [
+                {
+                    "text": "The sheet. Pick up?",
+                    "choices": [
+                        {
+                            "text": "Take",
+                            "next": "puzzle"
+                        },
+                        {
+                            "text": "No",
+                            "next": "end"
+                        }
+                    ]
+                }
+            ]
+        },
+        "puzzle": {
+            "object": "The puzzle",
+            "sprite": "sPage",
+            "messages": [
+                {
+                    "text": "Wind, flame and water sleep,\nBut only one holy order -\nThe first path will show you the way,\nThe third extinguishes living heat",
+                    "next": "end"
+                }
+            ]
+        },
+        "chest": {
+            "object": "Chest",
+            "sprite": "sChest",
+            "messages": [
+                {
+                    "text": "You received 2 d.",
+                    "next": "end"
+                }
+            ]
+        }
+    }
+}
